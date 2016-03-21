@@ -24,8 +24,7 @@
     [super didReceiveMemoryWarning];
 }
 
-- (IBAction)payButtonAction:(id)sender {
-    NSLog(@"============ pay action ============");
+- (IBAction)touchButtonAction:(id)sender {
 
     LAContext *authenticationContext = [LAContext new];
     NSError *error = nil;
@@ -34,8 +33,8 @@
     if (canEvaluate) {
         
         NSLog(@"============ can use touch id ============");
-
-        [authenticationContext evaluatePolicy:LAPolicyDeviceOwnerAuthentication localizedReason:@"指纹验证" reply:^(BOOL success, NSError * _Nullable error) {
+    
+        [authenticationContext evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics localizedReason:@"指纹验证" reply:^(BOOL success, NSError * _Nullable error) {
             
             if (success) {
                 NSLog(@"============ evaluate success ============");

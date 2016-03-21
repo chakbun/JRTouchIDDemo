@@ -110,7 +110,7 @@
 				TargetAttributes = {
 					DF5FB5241C91514F00237185 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = SU8WEJ4S57;
+						DevelopmentTeam = 83C74U4322;
 					};
 				};
 			};
@@ -265,7 +265,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JRTouchIDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chakbun.JRTouchIDDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakbun.JRTouchIDDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -277,7 +277,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JRTouchIDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chakbun.JRTouchIDDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakbun.JRTouchIDDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -301,6 +301,7 @@
 				DF5FB53E1C91514F00237185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
