@@ -15,7 +15,16 @@ touchID 使用的探索，
 ```
 其中参数
 
+* LAPolicyDeviceOwnerAuthenticationWithBiometrics
+
+只允许指纹验证touch id，在三次指纹识别失败后，不允许使用passcode登录。
+
 * LAPolicyDeviceOwnerAuthentication
+
+允许指纹和passcode验证。一开始采用指纹验证，验证失败后还可采用passcode 验证。
+
+
+
 
 
 

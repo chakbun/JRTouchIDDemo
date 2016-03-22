@@ -34,7 +34,7 @@
         
         NSLog(@"============ can use touch id ============");
     
-        [authenticationContext evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics localizedReason:@"指纹验证" reply:^(BOOL success, NSError * _Nullable error) {
+        [authenticationContext evaluatePolicy:LAPolicyDeviceOwnerAuthentication localizedReason:@"指纹验证" reply:^(BOOL success, NSError * _Nullable error) {
             
             if (success) {
                 NSLog(@"============ evaluate success ============");
